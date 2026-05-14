@@ -16,7 +16,7 @@ namespace HelloOpenGL
         private void Form1_Load(object sender, EventArgs e)
         {
             nRedByte = 0;
-            glControl1 = new GLControl(GraphicsMode.Default, 2, 0, GraphicsContextFlags.Default);
+            glControl1 = new GLControl();
             glControl1.BackColor = Color.Black;
             glControl1?.Dock = DockStyle.Fill;
             glControl1?.Paint += GLControl1_Paint;
